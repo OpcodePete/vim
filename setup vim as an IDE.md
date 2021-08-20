@@ -1,6 +1,8 @@
 # Setup vim as an IDE
 
-This is a step by step installation guide to add plug-ins to include additional features for:
+I use vim under [Arch Linux](https://github.com/OpcodePete/Arch-Linux).
+
+This is a step-by-step setup guide to add additional features to vim (via plugins) in the following areas:
 - General editing,
 - Geneal software development, and
 - Python development
