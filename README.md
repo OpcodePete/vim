@@ -6,3 +6,6 @@ vim is an editor... it is powerful... it is ubiquitous... it is all-purpose... i
 
 Modern IDEs are fantastic. I have been developing commercially with Microsoft Visual Studio since the 90s. But, many developers use vim.
 
+**Plugin manager**
+
+Having installed many plugin manually for a long time, then trying a numhber of the popular plugin managers, I found `vim-plug` to be the best.
