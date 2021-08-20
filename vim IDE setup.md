@@ -14,7 +14,7 @@ This is a step by step installation guide to add plug-ins to include additional 
 
 A dark Vim/Neovim color scheme for the GUI and 16/256/true-color terminals, based on FlatColor, with colors inspired by the excellent One Dark syntax theme for the Atom text editor.
 
-Install theme
+Install
 ```bash
 # Download the repo
 git clone https://github.com/joshdick/onedark.vim
@@ -24,7 +24,7 @@ cp ~/onedark.vim/colors/onedark.vim ~/.vim/colors/
 cp ~/onedark.vim/autoload/onedark.vim ~/.vim/autoload/
 ```
 
-Include in .vimrc
+Include in `.vimrc`
 ```bash
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 if (has("termguicolors"))
@@ -71,7 +71,7 @@ Plug 'vim-airline/vim-airline-themes'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 ~/.vimrc
