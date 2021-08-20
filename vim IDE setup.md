@@ -1,6 +1,10 @@
 # Setup vim as an IDE
 
-This is a step by step installation guide to add plug-ins and learn their features. (tl;dr just download and use `.vimrc`)
+This is a step by step installation guide to add plug-ins to include additional features for:
+- General editing,
+- Geneal software development, and
+- Python development
+
 
 <br />
 
@@ -10,7 +14,7 @@ This is a step by step installation guide to add plug-ins and learn their featur
 
 A dark Vim/Neovim color scheme for the GUI and 16/256/true-color terminals, based on FlatColor, with colors inspired by the excellent One Dark syntax theme for the Atom text editor.
 
-Install the theme
+Install theme
 ```bash
 # Download the repo
 git clone https://github.com/joshdick/onedark.vim
