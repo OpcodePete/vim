@@ -54,7 +54,7 @@ wget -P ~/.vim/autoload/ https://raw.githubusercontent.com/junegunn/vim-plug/mas
 <br />
 
 
-### Plugins - General
+## General plugins
 
 **vim-airline**
 
@@ -195,8 +195,7 @@ Plug 'tpope/vim-commentary'
 <br />
 <br />
 
-## Plugins - Development
-
+## Development plugins
 
 **vim-fugitive**
 
@@ -373,7 +372,7 @@ let g:asyncrun_open = 8
 <br />
 <br />
 
-## Plugins - Python
+## Python plugins
 
 Install python and its package installer
 ```bash
