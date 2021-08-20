@@ -79,7 +79,7 @@ let g:airline_theme='onedark'
 let g:airline#extensions#coc#enabled = 1
 let g:airline_powerline_fonts = 1
 
-#IMPORTANT - Ensure the General section includes the following line:
+# Include the following line in the General\Misc section
 set encoding=utf-8
 ```
 
@@ -95,12 +95,6 @@ fc-list | grep Roboto
 cd /usr/share/fonts/TTF/
 sudo cp /home/peterg/.vim/vim-plug-plugins/powerline-fonts/RobotoMono/Roboto* .
 sudo chmod 0444 'Roboto '*
-
-# DO NOT DO THIS STEP BELOW - cursor vim issue alignment!
-# Set Konsole to use a patched powerline font
-# Menu/Settings/Edit Current Profile/Appearance/Font [Choose]/
-#	Check [Show all fonts]
-#	Select Roboto Mono Light for Powerline, Light, 8pt
 ```
 
 <br />
