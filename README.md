@@ -1,10 +1,10 @@
 # vim
 
-I use vim under [Arch Linux](https://github.com/OpcodePete/Arch-Linux).
+vim is an editor... it is powerful... it is ubiquitous... it is all-purpose... it's shortcuts are optimised... vim will change the way you look at a comptuer and how you do things.
 
-vim is an editor... it is powerful... it is ubiquitous... it is all-purpose... it's shortcuts are optimised... wim will change the way you look at a comptuer and how you do things.
+I have been developing software with Microsoft Visual Studio since the 90s, and modern IDEs are fantastic! But, many developers still use vim!
 
-Modern IDEs are fantastic. I have been developing commercially with Microsoft Visual Studio since the 90s. But, many developers use vim.
+This repo contains my notes on vim, i.e. how to use vim, how to setup vim as an IDE, and more.
 
 <br />
 
