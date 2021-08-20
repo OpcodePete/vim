@@ -111,8 +111,6 @@ Install
 Plug 'jiangmiao/auto-pairs'
 
 :PlugInstall
-
-curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 ```
 
 <br />
@@ -145,7 +143,7 @@ Plug 'universal-ctags/ctags'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 nnoremap <leader>. :CtrlPTag<cr>
@@ -166,7 +164,7 @@ Plug 'majutsushi/tagbar'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 nmap <F8> :TagbarToggle<CR>
@@ -220,7 +218,7 @@ Plug 'airblade/vim-gitgutter'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 let g:gitgutter_git_executable = '/usr/bin/git'
@@ -243,7 +241,7 @@ Plug 'google/yapf'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 let g:ale_linters = {
@@ -274,10 +272,9 @@ Plug 'neoclide/coc.nvim'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
-In vim
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
@@ -314,10 +311,7 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 ```
 
-In vim
-:CocConfig:PlugInstall
-
-Arch
+Include in `~/.vim/coc-settings.json
 
 ```json
 {
@@ -327,8 +321,10 @@ Arch
 }
 ```
 
-Config file is located in:`~/.vim/coc-settings.json`
-
+Install via vim, to install plugin:
+```bash
+:CocConfig:PlugInstall
+```
 <br />
 
 **asyncrun.vim**
@@ -342,7 +338,7 @@ Plug 'skywind3000/asyncrun.vim'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 " Quick run via <F5>
@@ -404,7 +400,7 @@ Plug 'tmhedberg/SimpylFold'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 set nofoldenable
@@ -427,7 +423,7 @@ Plug 'vim-python/python-syntax'
 :PlugInstall
 ```
 
-Configure
+Include in `.vimrc`
 
 ```bash
 let g:python_highlight_all = 1
@@ -441,9 +437,9 @@ IDE for vim:
 
 1. Full LSP support, e.g. Microsoft Python Language server
 
-Install
+Install via vim
 
 ```bash
-In vim
+
 :CocInstall coc-python
 ```
