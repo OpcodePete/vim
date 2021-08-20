@@ -85,7 +85,8 @@ set encoding=utf-8
 
 Fonts
 
-To get vim-airline to display arrows, install the patched powerline fonts and use them
+To get vim-airline to display arrows, install the patched powerline fonts and use them  
+Ensure you have the correct fonts installed - refer to my (i3 installation guide)[https://github.com/OpcodePete/i3/blob/main/i3%20Installation%20guide.md]
 
 ```bash
 # List all Roboto fonts
