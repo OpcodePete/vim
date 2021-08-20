@@ -1,6 +1,6 @@
 # Setup vim as an IDE
 
-This is a step by step installation guide to add plug-ins and learn their features (or TL;DR simply download and use the `.vimrc` config).
+This is a step by step installation guide to add plug-ins and learn their features. (tl;dr just download and use `.vimrc)
 
 <br />
 
