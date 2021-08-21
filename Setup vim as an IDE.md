@@ -107,8 +107,6 @@ sudo chmod 0444 'Roboto '*
 
 **auto-pairs**
 
-Insert or delete brackets, parens, quotes in pair
-
 Install
 
 ```bash
@@ -122,8 +120,6 @@ Plug 'jiangmiao/auto-pairs'
 
 **vim-ctrlp**
 
-File finder for Vim
-
 Install
 
 ```bash
@@ -135,9 +131,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 <br />
 
-**ctags**
-
-Generates an index file of language objects found in source files
+**Universal Ctags**
 
 Install
 
@@ -158,8 +152,6 @@ nnoremap <leader>. :CtrlPTag<cr>
 
 **vim-tagbar**
 
-Plugin to browse the tags of the current file and get an overview of its structure
-
 Install
 
 ```bash
@@ -179,8 +171,6 @@ nmap <F8> :TagbarToggle<CR>
 
 **vim-commentary**
 
-This plugin allows the user to comment out lines and blocks of code
-
 Install
 
 ```bash
@@ -197,8 +187,6 @@ Plug 'tpope/vim-commentary'
 
 **vim-fugitive**
 
-Vim plugin for Git
-
 Install
 
 ```bash
@@ -211,8 +199,6 @@ Plug 'tpope/vim-fugitive'
 <br />
 
 **vim-gitgutter**
-
-Vim plugin for Git
 
 Install
 
@@ -232,8 +218,6 @@ let g:gitgutter_git_executable = '/usr/bin/git'
 <br />
 
 **vim-ale**
-
-This plugin is an asynchronous linter (i.e. checking for syntax errors) - use it with flake8 and pylint. And also a formatter - use with google/yapf.
 
 Install
 
@@ -265,8 +249,6 @@ let g:ale_fix_on_save = 1
 <br />
 
 **coc.nvim**
-
-IDE for vim
 
 Install
 
@@ -379,8 +361,6 @@ sudo pacman -S python python-pip
 
 **vim-python-pep8-indent**
 
-This plugin enforces PEP8 indentation
-
 Install
 
 ```bash
@@ -393,8 +373,6 @@ Plug 'Vimjas/vim-python-pep8-indent'
 <br />
 
 **SimpylFold**
-
-Vim plugin providing simple, correct folding for Python
 
 Install
 
