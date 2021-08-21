@@ -7,6 +7,9 @@ This is a step-by-step setup guide to add additional features to vim in the foll
 - Geneal software development, and
 - Python development
 
+<br />
+
+Refer to the [use vim as an IDE.md](https://github.com/OpcodePete/vim/blob/main/use%20vim%20as%20an%20IDE.md) guide on how to use plugins.
 
 <br />
 
