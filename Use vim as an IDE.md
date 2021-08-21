@@ -122,7 +122,7 @@ How to use
 
 ```bash
 git configure --global user.name "Peter G"
-git configure --global user.email "peterg@opcodestudios.com"
+git configure --global user.email "peterg@"
 ```
 
 <br />
