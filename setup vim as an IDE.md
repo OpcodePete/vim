@@ -13,7 +13,7 @@ Refer to the [use vim as an IDE.md](https://github.com/OpcodePete/vim/blob/main/
 
 <br />
 
-## Theme
+## Set vim theme
 
 **onedark.vim**
 
@@ -49,7 +49,7 @@ colorscheme onedark
 <br />
 <br />
 
-## Plugin manager
+## Install plugin manager
 
 Install vim-plug
 ```bash
@@ -59,7 +59,7 @@ wget -P ~/.vim/autoload/ https://raw.githubusercontent.com/junegunn/vim-plug/mas
 <br />
 
 
-## General plugins
+## Install general plugins
 
 **vim-airline**
 
@@ -193,7 +193,7 @@ Plug 'tpope/vim-commentary'
 <br />
 <br />
 
-## Development plugins
+## Install development plugins
 
 **vim-fugitive**
 
@@ -368,7 +368,7 @@ let g:asyncrun_open = 8
 <br />
 <br />
 
-## Python plugins
+## Install python plugins
 
 Install python and its package installer
 ```bash
