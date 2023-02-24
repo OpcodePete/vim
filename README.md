@@ -1,13 +1,11 @@
 # vim
 
-vim is an editor, it is powerful, all-purpose, ubiquitous, it's shortcuts are optimised, and vim will change the way you look at a comptuer and how you do things.
+vim is an editor. It is powerful, all-purpose, ubiquitous, and it's shortcuts are optimised.
 
-I have been developing software using Microsoft Visual Studio since the 90s. Modern IDEs are fantastic! But, many developers still use vim.
+vim will change the way you look at a comptuer and how you do things.
 
-This repo contains my notes on vim, i.e. my cheat sheet, how to use vim, how to setup vim as an IDE, and more.
+I have been developing software using Microsoft Visual Studio since the 90s. Modern IDEs are fantastic! But many developers still use vim!
 
-<br />
+This repo contains my notes, a cheat sheet, how to use vim, and more.
 
-**Plugin manager**
-
-I had been installing vim plugins without a plugin manager for years, until I finally decided to try a few of the popular plugin managers. I ended up using `vim-plug`, in my opinion it is the best.
+Regarding plugin managers, I had been installing vim plugins without a plugin manager for years, until I finally decided to try a few of the popular plugin managers. I ended up using `vim-plug`, in my opinion it is the best.
